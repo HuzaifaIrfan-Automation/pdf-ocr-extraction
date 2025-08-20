@@ -39,8 +39,8 @@ output_file_page_1 = f"{output_folder}/1.png"
 bboxes = {
     "dipendente_nome": (544, 622, 1886, 696),
     "codice_fiscale": (1984, 340, 2671, 402),
-    "matricola_inps": (0, 0, 10, 10),
-    "qualifica_mansione": (0, 0, 10, 10),
+    "matricola_inps": (2874, 208, 3244, 270),
+    "qualifica_mansione": (700, 758, 1882, 838),
     "livello":(0, 0, 10, 10),
     "data_assunzione": (0, 0, 10, 10),
     "data_cessazione":(0, 0, 10, 10),
@@ -81,7 +81,7 @@ for key, cropped_image_path in cropped_image_paths.items():
     cropped_image = Image.open(cropped_image_path)
 
     # Use pytesseract to do OCR on the cropped image
-    text = pytesseract.image_to_string(cropped_image)
+    text = pytesseract.image_to_string(cropped_image).strip()
 
     # Print the extracted text
 
