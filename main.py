@@ -10,7 +10,7 @@ import os
 import fitz  # PyMuPDF
 
 
-input_pdf_file_path="input/example.pdf"
+input_pdf_file_path="example.pdf"
 
 
 
