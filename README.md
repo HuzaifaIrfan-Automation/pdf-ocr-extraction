@@ -27,7 +27,7 @@ Operai Part-Time
 ---- mansione
 BARMAN
 ---- livello
-
+4
 ---- data_assunzione
 10/09/2015
 ---- data_cessazione
